@@ -22,10 +22,3 @@
       "description": "",
       "value": true
     }
-  },
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-   ]
-}
