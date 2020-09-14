@@ -56,7 +56,7 @@ for module_name in ALL_MODULES:
 def start(update, context):
 	user = update.message.from_user
 	if update.effective_message.chat.type == "private":
-	    text = "Hey there! \n You can contact me using this bot... \n Checkout @askplugins and @pikachuhelper_bot too too 😁
+	    text = "Hey there! \n You can contact LOL Anonimo using this bot... \n  This bot was made by [them](t.me/checkedplugins)
 	else:
             text = "What bsdk?"
 	update.effective_message.reply_text(text, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
