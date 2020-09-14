@@ -15,11 +15,11 @@
       "required": true
     },
     "SUDO_USERS": {
-      "description": "",
+      "description": "1229057875",
       "value": true
     },
     "CHAT_ID": {
-      "description": "",
+      "description": "-1001325620856",
       "value": true
     }
   },
