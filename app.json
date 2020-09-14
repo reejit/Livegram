@@ -1,6 +1,6 @@
 {
-  "name": "Livegram",
-  "description": "Nothing",
+  "name": "Livegrm",
+  "description": "Notng",
   "env": {
     "API_ID": {
       "description": "Get this value from my.telegram.org.",
