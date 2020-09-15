@@ -1,4 +1,3 @@
-import os
 import importlib
 from Livegram import dispatcher, updater, Config, bot, dispatcher, LOGGER
 from Livegram.mod import ALL_MODULES
@@ -57,14 +56,8 @@ for module_name in ALL_MODULES:
 def start(update, context):
 	user = update.message.from_user
 	if update.effective_message.chat.type == "private":
-     
-       START_IMG = os.environ.get('START_IMG', None)
-       if START_IMG is None:
-        img = "https://telegra.ph/file/7222926589f9ca27de255.jpg"
-   else:
-         img = "https://telegra.ph/file/7222926589f9ca27de255.jpg"
-
-	    text = "Hey there! \n You can contact LOL Anonimo using this bot... \n  This bot was made by [them](t.me/checkedplugins)"
+    
+	    text = "Hey there! \n You can contact ꧁༒Hell多Øץ⚔༒꧂ using this bot... \n  This bot was made by a legend..!!!! \n Be patient he will reply you soon...."
 	else:
             text = "What bsdk?"
 	update.effective_message.reply_text(text, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
