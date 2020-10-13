@@ -59,7 +59,7 @@ def start(update, context):
     
 	    text = "Hey there \n You are at the official feedback bot of @Checkedplugins....\nPlease leave your feedback here...\nWe will respond to it soon!!!😁😁"
 	else:
-            text = "What bsdk?"
+            text = "Text in pm lol!!!!"
 	update.effective_message.reply_text(text, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
 def main():
