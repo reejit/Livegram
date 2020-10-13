@@ -57,7 +57,7 @@ def start(update, context):
 	user = update.message.from_user
 	if update.effective_message.chat.type == "private":
     
-	    text = "Hey there! \n You can contact ꧁༒Hell多Øץ⚔༒꧂ using this bot... \n  This bot was made by a legend..!!!! \n Be patient he will reply you soon...."
+	    text = "Hey there \n You are at the official feedback bot of @Checkedplugins....\nPlease leave your feedback here...\nWe will respond to it soon!!!😁😁"
 	else:
             text = "What bsdk?"
 	update.effective_message.reply_text(text, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
